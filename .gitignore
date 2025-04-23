@@ -5,7 +5,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -42,8 +41,18 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
+=======
+
+#MongoDB Fiels 
+DB/
+.DS_Store
+
+# TypeScript v1 declaration files
+typings/
+>>>>>>> ba4f65b (Initial commit with project and README)
 
 # TypeScript cache
 *.tsbuildinfo
@@ -54,9 +63,12 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
 # Optional stylelint cache
 .stylelintcache
 
+=======
+>>>>>>> ba4f65b (Initial commit with project and README)
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -72,6 +84,7 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< HEAD
 # dotenv environment variable files
 .env
 .env.development.local
@@ -86,6 +99,17 @@ web_modules/
 # Next.js build output
 .next
 out
+=======
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+>>>>>>> ba4f65b (Initial commit with project and README)
 
 # Nuxt.js build / generate output
 .nuxt
@@ -93,13 +117,18 @@ dist
 
 # Gatsby files
 .cache/
+<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and not Next.js
+=======
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+>>>>>>> ba4f65b (Initial commit with project and README)
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
 # vuepress v2.x temp and cache directory
 .temp
 .cache
@@ -113,6 +142,8 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+=======
+>>>>>>> ba4f65b (Initial commit with project and README)
 # Serverless directories
 .serverless/
 
@@ -123,6 +154,7 @@ dist
 .dynamodb/
 
 # TernJS port file
+<<<<<<< HEAD
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
@@ -134,3 +166,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+.tern-port
+>>>>>>> ba4f65b (Initial commit with project and README)
